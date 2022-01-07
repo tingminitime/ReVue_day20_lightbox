@@ -7,6 +7,12 @@
       <router-link to="/about">
         About
       </router-link>
+      <div
+        v-if="1"
+        :key="1"
+      >
+        123
+      </div>
     </div>
     <router-view />
   </div>
